@@ -15,10 +15,10 @@ spec:
     spec:
       containers:
       - name: test
-        image: moncete/faspi:0.4
+        image: juanjoselo/faspimage:latest
         env:
         - name: PRUEBA
-          value: "CANARY2" 
+          value: "CANARY" 
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
