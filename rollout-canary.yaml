@@ -34,11 +34,11 @@ spec:
       - setCanaryScale:
           replicas: 2
       - setWeight: 10
-        pause: {}
+      - pause: {}
       - setWeight: 20
-        pause: {}
+      - pause: {}
       - setWeight: 50
-        pause: {}
+      - pause: {}
       
 ---
 kind: Service
