@@ -4,6 +4,6 @@ metadata:
   name:  faspi
 spec:
   resolver: endpoint
-  prefix: /faspi
+  prefix: /faspi-juanjo
   rewrite: /
   service: prod:80
