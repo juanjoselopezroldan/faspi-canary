@@ -33,7 +33,7 @@ spec:
       steps:
       - setCanaryScale:
           replicas: 2
-      - setWeight: 50
+      - setWeight: 70
       - pause: {}
       
 ---
